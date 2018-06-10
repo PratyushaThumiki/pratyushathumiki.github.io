@@ -1,25 +1,28 @@
-## Welcome to GitHub Pages
+## sources
 
-You can use the [editor on GitHub](https://github.com/PratyushaThumiki/pratyushathumiki.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Here I'm going to give you the resources related to all the technologies in today's world. These are the most preferred courses and resources for these technologies.
+### Android Development
+![Android development](http://blog.appliedis.com/wp-content/uploads/2013/11/android1.png)
 ```markdown
-Syntax highlighted code block
+Android development includes developing applications like Gmail, Facebook, Whatsapp, Twitter etc.
 
-# Header 1
-## Header 2
-### Header 3
+# [Udacity Android Basics](https://in.udacity.com/course/android-basics-nanodegree-by-google--nd803)
+# [Udemy Android Course](https://www.udemy.com/complete-android-developer-course/)
+# [Edureka](https://www.edureka.co/android-development-certification-course)
+# [CourseEra](https://www.coursera.org/specializations/android-app-development)
 
-- Bulleted
-- List
+### Data Analytics
+![Data Analytics](https://www.digitalvidya.com/wp-content/uploads/2016/12/data-analytics1-1170x628.jpg)
+```markdown
+Data analytics refers to qualitative and quantitative techniques and processes used to enhance productivity and business profits.
 
-1. Numbered
-2. List
+# [Analytics Vidhya](https://www.analyticsvidhya.com/) 
+  You can also download the Analytics Vidhya app from PlayStore for resources regarding data analytics.
+  [App on Play](https://play.google.com/store/apps/details?id=com.analyticsvidhya.android)
+# [NIIT](http://www.niit.com/india/training/personals/working-professionals/big-data-analytics)
+# [Coursera](https://www.coursera.org/browse/data-science/data-analysis)
+# [Udacity](https://in.udacity.com/course/data-scientist-foundation-nanodegree--nd025-indsc)
+# [Udemy](https://www.udemy.com/courses/business/data-and-analytics/)
 
 **Bold** and _Italic_ and `Code` text
 
