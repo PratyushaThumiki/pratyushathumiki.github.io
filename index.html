@@ -39,28 +39,83 @@
   max-width: 100%;
   height: auto;
 }
-        
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #e60073;
+    color: white;
+}
+
+
+#myBtn {
+  display: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #4d0019;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
     </style>
 </head>
 
 <body>
+	
+	<div class="topnav">
+	<a class="active" href="#home">Home</a>
+	<a href="#intro">More about me</a>
+    <a href="#work">My Work</a>
+	<a href="#disqus_thread">Discussion</a>
+	<a href="#contact">Contact</a>
+</div>
     <div class="myhead" style="overflow-y:hidden;">
         <div class="header-blue">
             <nav class="navbar navbar-dark navbar-expand-md navbar-static">
                 <div class="container" >
                   <a class="navbar" id="linker" href="index.html"><img class="img-fluid logo" src="assets/img/me.png"/></a>
-                  
-                    
+                  				<br><br><br><br><br><br>                    
                 </div>
             </nav>
             
     <div class="container hero">
                 <div class="center">
                     <div class="text-center">
-                       <h1>Hey! I'm Pratyusha. Nice meeting you! </h1>
+				<br><br><br>	<br><br><br>	</p>
                        <!--<div class="img-responsive"> <img src="assets/img/Resources%202.png" /></div>-->
-                        </div><br><br>
-						<h4 class="text-center">Try to bring all these particles onto the text using your pointer. Start from the edges :p</h4> 
+                        </div>
+						<h4 class="text-center">Try to bring all these particles to the middle using your pointer. Start from the edges :p</h4> 
 						
                         <div class=" text-center" id="button"><button class="btn btn-light btn-lg action-button" type="button">Know more about me</button></div>
                     
@@ -77,9 +132,11 @@
         <div class="container">
             <div class="intro" id="intro">
                 <h2 class="text-center">More about me</h2>
-               <b> <p>I am a Front end and Android developer. I love to code beautifully simple things and I love what I do.I am an undergrad B.Tech student who is interested in gaining practical knowledge which is the reason I started working on projects which you can see in my github profile. I'm quietly confident, naturally curious and a quick learner.I believe "IT'S NEVER TOO LATE TO LEARN SOMETHING NEW. ALL THAT MATTERS IS YOUR HARDWORK AND PASSION TOWARDS WHAT YOU ARE DOING".
+							<a href="https://medium.com/@pratyusha.thumiki"><img class="text-center" height="300" width="500" src="assets/img/me.gif"> </a>
+               <b> <p>I am a Front end and Android developer. I love to code beautifully simple things and I love what I do.I am an B.Tech undergrad student who is interested in gaining practical knowledge which is the reason I started working on projects which you can see in my github profile. I'm quietly confident, naturally curious and a quick learner.</p>
+				<p>I believe "IT'S NEVER TOO LATE TO LEARN SOMETHING NEW. ALL THAT MATTERS IS YOUR HARDWORK AND PASSION TOWARDS WHAT YOU ARE DOING".
 						 </p></b>
-				<h2 class="text-center">My Work</h2>
+				<h2 class="text-center" id="work">My Work</h2>
             </div>
             <div class="row articles">
 			  <div
@@ -89,8 +146,8 @@
        
 			<div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/coding.png">
                     <h3 class="name">Coding</h3>
-                    <p class="description">My programming experience in Hackerearth and Hackerrank.</p><a href="https://www.hackerrank.com/pratyusha_thumi1" class="action"><i class="fa fa-arrow-circle-right"></i></a>
-					<a href="https://www.hackerearth.com/@thumiki" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    <p class="description">My programming experience in InterviewBit and Hackerrank.</p><a href="https://www.interviewbit.com/profile/pratyusha-thumiki" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+					<a href="https://www.hackerrank.com/pratyusha_thumi1" class="action"><i class="fa fa-arrow-circle-right"></i></a>
 					</div>
                
 			<div
@@ -131,7 +188,7 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = https://pratyushathumiki.github.io/;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = 'https://pratyushathumiki.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
@@ -149,7 +206,7 @@ s.setAttribute('data-timestamp', +new Date());
                     <div class="container">
                         <div class="row">
                             
-                            <div class="col-md-6 item text-center">
+                            <div class="col-md-6 item text-center" id="contact">
                                 <h3>Contact</h3>
                                 <ul>
                                     <li><a href="mailto:pratyusha.thumiki@gmail.com?Subject=Hello%20Pratyusha" target="_blank">Send a Mail</a></li>
@@ -165,7 +222,8 @@ s.setAttribute('data-timestamp', +new Date());
                             <a href="https://github.com/PratyushaThumiki" target="_blank"><i class="icon ion-social-github"></i></a>
                             <a href="https://www.linkedin.com/in/pratyusha-thumiki-b22487147" target="_blank"><i class="icon ion-social-linkedin"></i></a>
                             <a href="https://twitter.com/Pratyus17790848" target="_blank" ><i class="icon ion-social-twitter"></i></a></div>
-
+                            <a href="https://medium.com/@pratyusha.thumiki" target="_blank" ><i class="icon ion-social-medium"></i></a></div>
+							
 					   </div>
                         <p class="copyright">PratyushaThumiki © 2018</p>
                     </div>
@@ -181,6 +239,29 @@ s.setAttribute('data-timestamp', +new Date());
     });
         
     </script>
+//top button
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
 <script src="particles.js"></script>
 <script src="particles.min.js"></script>
 <script src="app.js"></script>
