@@ -15,158 +15,205 @@
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
-        .hero{
-      position:absolute;
-      top: 10%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      color: #fff;
-      z-index: 1;
-      z-index:100;
-      
-      margin: auto;
-
+        .hero {
+            position: absolute;
+            top: 10%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #fff;
+            z-index: 1;
+            z-index: 100;
+            margin: auto;
         }
-        #particles-js{
-            
+
+        #particles-js {
             position: relative;
-           
-            
         }
-        .img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #e60073;
-    color: white;
-}
-#myBtn {
-  display: hidden;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #4d0019;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 50%;
-}
-#myBtn:hover {
-  background-color: #555;
-}
 
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #e60073;
+            color: white;
+        }
+
+        #myBtn {
+            display: hidden;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #4d0019;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 50%;
+        }
         
+        #myBtn:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 
 <body>
-	
-	<div class="topnav">
-	<a class="active" href="#home">Home</a>
-	<a href="#intro">More about me</a>
-    <a href="#work">My Work</a>
-	<a href="#disqus_thread">Discussion</a>
-	<a href="#contact">Contact</a>
-	</div>
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#intro">More about me</a>
+        <a href="#work">My Work</a>
+        <a href="#disqus_thread">Discussion</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="myhead" style="overflow-y:hidden;">
         <div class="header-blue">
             <nav class="navbar navbar-dark navbar-expand-md navbar-static">
-                <div class="container" >
-                  <a class="navbar" id="linker" href="index.html"><img class="img-fluid logo" src="assets/img/me.png"/></a>
-                  <br><br><br><br><br><br>
-                    
+                <div class="container">
+                    <a class="navbar" id="linker" href="index.html"></a>
                 </div>
             </nav>
-            
-    <div class="container hero">
+            <div class="container hero">
                 <div class="center">
                     <div class="text-center">
-					<br><br><br>	<br><br><br>	</p>
-                       <h1>Hey! I'm Pratyusha. Nice meeting you! </h1>
-                       <!--<div class="img-responsive"> <img src="assets/img/Resources%202.png" /></div>-->
-                        </div><br><br>
-						<h4 class="text-center">Try to bring all these particles to the middle using your pointer. Start from the edges :p</h4> 
-						
-                        <div class=" text-center" id="button"><button class="btn btn-light btn-lg action-button" type="button">Know more about me</button></div>
-                    
+                        <h1>Hey! I'm Pratyusha. Nice meeting you! </h1>
+                        <h2>Software Engineer and Consultant</h2>
+                        <!--<div class="img-responsive"> <img src="assets/img/Resources%202.png" /></div>-->
+                    </div><br><br>
+                    <div class=" text-center" id="button"><button class="btn btn-light btn-lg action-button"
+                            type="button">Know more about me</button></div>
+                            <br>
+                    <h4 class="text-center">PS: Try to bring all these particles to the middle using your pointer. Start
+                        from the edges :p</h4>
+
+                </div>
             </div>
+            <div id="particles-js">
+                <!-- PARTICLE EFFECT -->
+            </div>
+
         </div>
-    <div id="particles-js">
-    <!-- PARTICLE EFFECT -->
-    </div> 
-            
+
     </div>
-    
-    </div>
-     <div class="article-list">
+    <div class="article-list">
         <div class="container">
             <div class="intro" id="intro">
                 <h2 class="text-center">More about me</h2>
-							<a href="https://medium.com/@pratyusha.thumiki"><img class="text-center" height="300" width="500" src="assets/img/me.gif"> </a>
-               <b> <p>I am a Front end and Android developer. I love to code beautifully simple things and I love what I do.I am an B.Tech undergrad student who is interested in gaining practical knowledge which is the reason I started working on projects which you can see in my github profile. I'm quietly confident, naturally curious and a quick learner.</p>
-				<p>I believe "IT'S NEVER TOO LATE TO LEARN SOMETHING NEW. ALL THAT MATTERS IS YOUR HARDWORK AND PASSION TOWARDS WHAT YOU ARE DOING".
-						 </p></b>
-				<h2 class="text-center" id="work">My Work</h2>
+                <a href="https://medium.com/@pratyusha.thumiki"><img class="text-center" height="300" width="500"
+                        src="assets/img/me.gif"> </a>
+                <b>
+                    <p class="text-center"> I'm a Software Engineer and a Consultant. I like to keep things simple and elegant and am
+                        interested in exploring new things. A confident, naturally curious and a quick learner you'll
+                        ever meet! :D</p>
+                    <p class="text-center">I believe "IT'S NEVER TOO LATE TO LEARN SOMETHING NEW. ALL THAT MATTERS IS YOUR HARDWORK AND
+                        PASSION TOWARDS WHAT YOU ARE DOING".
+                    </p>
+                </b>
+                <h2 class="text-center">Work experience</h2>
+                <div class="timeline">
+                    <div class="circle left">
+                      <div class="content">
+                        <h2>Present</h2>
+                        <p>Working as a Software Consultant at Microsoft. Experience in developing applications using programming languages and development platforms including C#, JavaScript, Jquery, Power platform, Dynamics 365 CRM and Azure integrations.</p>
+                      </div>
+                    </div>
+                    <div class="circle right">
+                      <div class="content">
+                        <h2>2020</h2>
+                        <p>Enhancing TCS DigiFleet which includes Tyre Management, Vehicle route optimization, Replay of Vehicle movements, Dashboard and Analytics by bringing in Artificial Intelligence (AI) and Machine Learning capacities.</p>
+                      </div>
+                    </div>
+                    <div class="circle left">
+                      <div class="content">
+                        <h2>2019</h2>
+                        <p>Cognizant Salesforce Campus Skilling Internship Training Program where we created simulation projects for Housing and bear tracking.</p>
+                      </div>
+                    </div>
+                    <div class="circle right">
+                      <div class="content">
+                        <h2>2018</h2>
+                        <p>Front end web development internship at Tech Tychon Pvt. Ltd. Performed day to day tasks and done a project using HTML, CSS and JavaScript Frameworks.</p>
+                      </div>
+                  </div>
             </div>
-            <div class="row articles">
-			  <div
-                class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/android.png">
-                <h3 class="name">Android Development</h3>
-                <p class="description">You can check my projects on Android development here on github.</p><a href="https://github.com/PratyushaThumiki/UdacityExcercise" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-       
-			<div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/coding.png">
-                    <h3 class="name">Coding</h3>
-                    <p class="description">My programming experience in InterviewBit and Hackerrank.</p><a href="https://www.interviewbit.com/profile/pratyusha-thumiki" class="action"><i class="fa fa-arrow-circle-right"></i></a>
-					<a href="https://www.hackerrank.com/pratyusha_thumi1" class="action"><i class="fa fa-arrow-circle-right"></i></a>
-					</div>
-               
-			<div
-                class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/datascience.png">
-                <h3 class="name">Data Science</h3>
-                <p class="description">I'm a beginner in Data Science. Learning the introduction courses from here.</p><a href="https://datahack.analyticsvidhya.com/user/profile/pratyusha" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-			<div
-				class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/webdev.png">
-				<h3 class="name">Web Development</h3>
-				<p class="description">I have done some full stack web development projects. Also done an intern on web development at TechTychon.</p><a href="https://github.com/PratyushaThumiki/pratyushathumiki.github.io" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-		<div
-			class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/hadoopspark.png"><br><br>
-			<h3 class="name">Hadoop and Spark</h3>
-			<p class="description">Done few projects on Hadoop and Spark on performing operations and organizing the data using Eclipse IDE.</p><a href="https://github.com/PratyushaThumiki/HadoopScalaProjects" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-		<div
-            class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/dbms.png">
-            <h3 class="name">DBMS</h3>
-            <p class="description">Inventory management System to manage stock of a company business. I will upload it soon.</p><a class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div class="work" id="work">
+                <h2 class="text-center">My Work</h2>
+                <div class="row articles">
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/android.png">
+                        <h3 class="name">Android Development</h3>
+                        <p class="description">You can check my projects on Android development here on github.</p><a
+                            href="https://github.com/PratyushaThumiki/UdacityExcercise" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/coding.png">
+                        <h3 class="name">Coding</h3>
+                        <p class="description">My programming experience in InterviewBit and Hackerrank.</p><a
+                            href="https://www.interviewbit.com/profile/pratyusha-thumiki" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                        <a href="https://www.hackerrank.com/pratyusha_thumi1" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/datascience.png">
+                        <h3 class="name">Data Science</h3>
+                        <p class="description">I'm a beginner in Data Science. Learning the introduction courses from
+                            here.</p><a href="https://datahack.analyticsvidhya.com/user/profile/pratyusha"
+                            class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/webdev.png">
+                        <h3 class="name">Web Development</h3>
+                        <p class="description">I have done some full stack web development projects. Also done an intern
+                            on web development at TechTychon.</p><a
+                            href="https://github.com/PratyushaThumiki/pratyushathumiki.github.io" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/hadoopspark.png"><br><br>
+                        <h3 class="name">Hadoop and Spark</h3>
+                        <p class="description">Done few projects on Hadoop and Spark on performing operations and
+                            organizing the data using Eclipse IDE.</p><a
+                            href="https://github.com/PratyushaThumiki/HadoopScalaProjects" class="action"><i
+                                class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item"><img class="img-fluid" src="assets/img/dbms.png">
+                        <h3 class="name">DBMS</h3>
+                        <p class="description">Inventory management System to manage stock of a company business. I will
+                            upload it soon.</p><a class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <p class="text-center" style="color:#E33862">Need help? Contact me..!</p>
             </div>
-            <p class="text-center" style="color:#E33862">Need help? Contact me..!</p>
-            </div>
-                           
+
             <!--<div class="contact-clean">
                 <form method="post">
                     <h2 class="text-center">Contact us</h2>
@@ -177,87 +224,97 @@
                 </form>
             </div>
   */          -->
-  <div id="disqus_thread"></div>
-<script>
+            </div>
+            <div id="disqus_thread"></div>
+            <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-var disqus_config = function () {
-this.page.url = 'https://pratyushathumiki.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+                var disqus_config = function () {
+                    this.page.url = 'https://pratyushathumiki.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://pratyushathumiki-github-io-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://pratyushathumiki-github-io-1.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+
             <div class="footer-dark">
                 <footer>
                     <div class="container">
                         <div class="row">
-                            
+
                             <div class="col-md-6 item text-center" id="contact">
                                 <h3>Contact</h3>
                                 <ul>
-                                    <li><a href="mailto:pratyusha.thumiki@gmail.com?Subject=Hello%20Pratyusha" target="_blank">Send a Mail</a></li>
-                                   
+                                    <li><a href="mailto:pratyusha.thumiki@gmail.com?Subject=Hello%20Pratyusha"
+                                            target="_blank">Send a Mail</a></li>
+
                                 </ul>
                             </div>
                             <div class="col-md-6 item text-center">
                                 <h3>About Pratyusha Thumiki</h3>
-                                <p>This is my personal website. If you want to reach me out personally, you can mail me anytime and I would be happy to help.</p>
+                                <p>This is my personal website. If you want to reach me out personally, you can mail me
+                                    anytime and I would be happy to help.</p>
                             </div>
                             <div class="col item social">
-                            <a href="https://www.instagram.com/pratyusha_thumiki/" target="_blank"><i class="icon ion-social-instagram"></i></a>
-                            <a href="https://github.com/PratyushaThumiki" target="_blank"><i class="icon ion-social-github"></i></a>
-                            <a href="https://www.linkedin.com/in/pratyusha-thumiki-b22487147" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-                            <a href="https://twitter.com/PratyushaRaj" target="_blank" ><i class="icon ion-social-twitter"></i></a></div>
-							<a href="https://medium.com/@pratyusha.thumiki" target="_blank" ><i class="icon ion-social-medium"></i></a></div>
-					   </div>
-                        <p class="copyright">PratyushaThumiki © 2018</p>
+                                <a href="https://www.instagram.com/pratyusha_thumiki/" target="_blank"><i
+                                        class="icon ion-social-instagram"></i></a>
+                                <a href="https://github.com/PratyushaThumiki" target="_blank"><i
+                                        class="icon ion-social-github"></i></a>
+                                <a href="https://www.linkedin.com/in/pratyushathumiki" target="_blank"><i
+                                        class="icon ion-social-linkedin"></i></a>
+                                <a href="https://twitter.com/PratyushaRaj" target="_blank"><i
+                                        class="icon ion-social-twitter"></i></a>
+                            </div>
+                            <a href="https://medium.com/@pratyusha.thumiki" target="_blank"><i
+                                    class="icon ion-social-medium"></i></a>
+                        </div>
                     </div>
-                </footer>
+                    <p class="copyright">PratyushaThumiki © 2022</p>
             </div>
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-    $("#button").click(function(){
-        $('html,body').animate({
-            scrollTop:$("#intro").offset().top},
-                               'slow');
-    });
-        
-    </script>
-	//top button
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            $("#button").click(function () {
+                $('html,body').animate({
+                    scrollTop: $("#intro").offset().top
+                },
+                    'slow');
+            });
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </script>
 
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-<script src="particles.js"></script>
-<script src="particles.min.js"></script>
-<script src="app.js"></script>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <script src="particles.js"></script>
+        <script src="particles.min.js"></script>
+        <script src="app.js"></script>
 </body>
-
 </html>
