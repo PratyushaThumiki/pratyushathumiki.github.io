@@ -84,7 +84,7 @@ body{
   
   /* Fix the circle for circles on the right side */
   .right::after {
-    left: -15px;
+    left: -16px;
     box-sizing: border-box;
   }
   
