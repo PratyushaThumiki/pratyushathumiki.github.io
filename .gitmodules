@@ -1,3 +1,3 @@
-[submodule "pratyushathumiki.github.io"]
-	path = pratyushathumiki.github.io
+[submodule "submodules"]
+	path = submodules
 	url = https://github.com/PratyushaThumiki/pratyushathumiki.github.io.git
