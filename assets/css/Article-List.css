@@ -24,8 +24,12 @@
 
 .article-list .intro {
   font-size:16px;
-  max-width:500px;
-  margin:0 auto;
+  margin: 5%;
+}
+
+.article-list .work {
+  font-size:16px;
+  margin: 5%;
 }
 
 .article-list .intro p {
