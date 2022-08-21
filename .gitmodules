@@ -1,3 +1,6 @@
 [submodule "submodules"]
 	path = submodules
 	url = https://github.com/PratyushaThumiki/pratyushathumiki.github.io.git
+[submodule "pratyushathumiki.github.io"]
+	path = pratyushathumiki.github.io
+	url = https://github.com/PratyushaThumiki/pratyushathumiki.github.io.git
